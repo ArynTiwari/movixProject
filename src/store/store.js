@@ -7,6 +7,7 @@ const persistConfig = {
   key: "root",
   version: 1,
   storage,
+  whitelist: ["home"],
 };
 const combinedReducer = combineReducers({
   home: homeSlice,
